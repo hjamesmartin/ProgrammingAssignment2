@@ -7,8 +7,9 @@ makeCacheMatrix <- function(x = matrix()) {
 
 }
 
-## placeholder 
-## placeholder #2
+## placeholder #1 - first round - follow the steps learning github
+## placeholder #2 - second round - practice the steps
+## placeholder #3 - third round - learn the steps
 ## Write a short comment describing this function
 
 cacheSolve <- function(x, ...) {
