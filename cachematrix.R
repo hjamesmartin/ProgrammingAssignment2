@@ -15,4 +15,15 @@ makeCacheMatrix <- function(x = matrix()) {
 
 cacheSolve <- function(x, ...) {
         ## Return a matrix that is the inverse of 'x'
+        makeVector <- function(x = numeric()) { # creates list with the function
+                m <- NULL  # creates factor m with NULL value
+                set <- function(y) {  # 
+                        x <<- y  # assigns "y" to "x" in a different environment
+                        m <<- NULL  # creates factor"m" with NULL value in a different environment
+                }  
+                get <- function() x  # 
+                list(set = set, get = get,
+                     setmean = setmean,
+                     getmean = getmean)
+        }        
 }
