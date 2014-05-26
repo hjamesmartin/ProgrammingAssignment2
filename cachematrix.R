@@ -15,6 +15,7 @@ makeCacheMatrix <- function(x = matrix()) {
 
 cacheSolve <- function(x, ...) {
         ## Return a matrix that is the inverse of 'x'
+## placeholder #5 - fifth round - some pseudocode, with comments
         makeVector <- function(x = numeric()) { # creates list with the function
                 m <- NULL  # creates factor m with NULL value
                 set <- function(y) {  # 
